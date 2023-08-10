@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"nat_gateway","Source":"../modules/Nate-gateways","Dir":"../Modules/Nate-gateways"},{"Key":"vpc","Source":"../Modules/VPC","Dir":"../Modules/VPC"},{"Key":"","Source":"","Dir":"."}]}
