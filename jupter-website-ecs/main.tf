@@ -40,5 +40,9 @@ module "secuirty group" {
     vpc_id = module.vpc.vpc_id
 }
 
+module "ecs_tasks_execution_role" {
+    source = "../Modules/ecs-tasks-excution-role"
+    wordpress_web = module.vpc.wordpress_web
   
+}
 
